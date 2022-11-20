@@ -1,6 +1,6 @@
 {
   "name": "hypercore",
-  "version": "10.4.1",
+  "version": "10.4.1-secp256k1",
   "description": "Hypercore is a secure, distributed append-only log",
   "main": "index.js",
   "scripts": {
@@ -40,7 +40,7 @@
     "crc-universal": "^1.0.2",
     "events": "^3.3.0",
     "flat-tree": "^1.9.0",
-    "hypercore-crypto": "^3.2.1",
+    "hypercore-crypto": "blakejakopovic/hypercore-crypto#secp256k1",
     "is-options": "^1.0.1",
     "protomux": "^3.4.0",
     "quickbit-universal": "^2.0.3",
